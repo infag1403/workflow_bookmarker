@@ -1,19 +1,15 @@
 # Workflow Bookmarker
 
 <p align="center">
-  <img src="https://activitywatch.net/img/logo.png" alt="ActivityWatch Logo" width="100">
-</p>
-
-<p align="center">
   <b>Record, automate, and replay your digital workflows</b>
 </p>
 
 <p align="center">
-  <a href="https://github.com/activitywatch/workflow-bookmarker/issues">
-    <img src="https://img.shields.io/github/issues/activitywatch/workflow-bookmarker" alt="GitHub Issues">
+  <a href="https://github.com/infag1403/workflow_bookmarker/issues">
+    <img src="https://img.shields.io/github/issues/infag1403/workflow_bookmarker" alt="GitHub Issues">
   </a>
-  <a href="https://github.com/activitywatch/workflow-bookmarker/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/activitywatch/workflow-bookmarker" alt="License">
+  <a href="https://github.com/infag1403/workflow_bookmarker/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/infag1403/workflow_bookmarker" alt="License">
   </a>
 </p>
 
@@ -31,7 +27,6 @@
   - [Playback](#playback)
   - [Advanced Features](#advanced-features)
   - [Exporting and Importing](#exporting-and-importing)
-- [Integration with ActivityWatch](#integration-with-activitywatch)
 - [Troubleshooting](#troubleshooting)
   - [Permission Issues](#permission-issues)
   - [Window Detection](#window-detection)
@@ -83,8 +78,8 @@ The application uses platform-specific implementations where necessary (e.g., `m
 
 ```bash
 # Clone the repository
-git clone https://github.com/activitywatch/workflow-bookmarker.git
-cd workflow-bookmarker
+git clone https://github.com/infag1403/workflow_bookmarker.git
+cd workflow_bookmarker
 
 # Install the package
 pip install -e .
@@ -180,16 +175,6 @@ You can create workflows with conditional actions that depend on the state of th
 2. Select a previously exported workflow file
 3. The workflow will be added to your list
 
-## Integration with ActivityWatch
-
-Workflow Bookmarker is designed to complement [ActivityWatch](https://activitywatch.net/), a privacy-focused time tracker. While ActivityWatch tracks what you do, Workflow Bookmarker allows you to record and replay specific sequences of actions.
-
-Benefits of using them together:
-
-- **Analyze and Automate**: Identify repetitive tasks in ActivityWatch data and automate them with Workflow Bookmarker
-- **Enhanced Productivity**: Create shortcuts for complex workflows you perform regularly
-- **Documentation**: Create visual guides for processes you track with ActivityWatch
-
 ## Troubleshooting
 
 ### Permission Issues
@@ -253,7 +238,7 @@ We welcome contributions to Workflow Bookmarker! Here's how you can help:
 1. Fork the repository
 2. Clone your fork:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/workflow-bookmarker.git
+   git clone https://github.com/YOUR_USERNAME/workflow_bookmarker.git
    ```
 3. Install development dependencies:
    ```bash
@@ -280,7 +265,7 @@ python -m unittest discover
 
 ### Reporting Issues
 
-If you find a bug or have a feature request, please [open an issue](https://github.com/activitywatch/workflow-bookmarker/issues/new) with:
+If you find a bug or have a feature request, please [open an issue](https://github.com/infag1403/workflow_bookmarker/issues/new) with:
 
 - A clear description of the problem
 - Steps to reproduce
